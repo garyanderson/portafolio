@@ -1,0 +1,19 @@
+const imageDOM = document.querySelectorAll('.home__layer')
+const homeDOM = document.getElementById('home')
+console.log("hasta aqui va bien esta pendejada")
+function parallax(e) {
+  
+  if (e) {
+    console.log("estoy dentro de la puta funcion")
+    imageDOM.forEach(img => {
+      const speed = img.getAttribute('data-speed');
+      console.log(speed)
+      const x = (window.innerWidth - e.pageX * speed) / 100
+      const y = (window.innerHeight - e.pageY * speed) / 100
+      img.style.transform = `translateX(${x}px) translateY(${y}px)`
+    })
+  }
+}
+homeDOM.addEventListener('mousemove', parallax)
+
+export default parallax

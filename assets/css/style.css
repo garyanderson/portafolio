@@ -1055,3 +1055,8 @@ img {
     margin: 0 auto;
   }
 }
+
+.btn_close-modal {
+  text-align: center;
+  z-index: 5;
+}

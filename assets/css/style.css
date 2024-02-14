@@ -1030,6 +1030,9 @@ img {
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
     }
+    .footer__copy {
+      justify-content: center;
+    }
   }
 }
 

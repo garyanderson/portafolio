@@ -475,7 +475,9 @@ img {
       width: clamp(min(100px, 100%), 85vw, 445px);
       height: auto;
       margin: 0 auto;
-      text-align: center;
+      text-align: right;
+
+      }
     }
 
     .home__social {

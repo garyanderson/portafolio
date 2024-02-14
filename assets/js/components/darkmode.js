@@ -27,3 +27,5 @@ function malditoCheck(){
       window.alert("modo dia")
     }
   }
+
+  export default malditoCheck

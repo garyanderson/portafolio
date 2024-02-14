@@ -1,6 +1,6 @@
 const imageDOM = document.querySelectorAll('.home__layer')
 const homeDOM = document.getElementById('home')
-console.log("hasta aqui va bien esta pendejada")
+
 function parallax(e) {
   
   if (e) {

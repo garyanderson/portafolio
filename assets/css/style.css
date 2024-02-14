@@ -944,6 +944,7 @@ img {
 
           &:nth-child(1) {
             transform: rotate(-8deg);
+            max-width: 33%;
           }
 
           &:nth-child(3) {

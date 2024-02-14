@@ -21,25 +21,20 @@
   <link rel="icon" href="assets/img/logo.png" type="image/png">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/components/darkmode.js"></script>
-  <!-- <script src="assets/js/components/traslator.js"></script> -->
-  <script type="module" src="assets/js/main.js" defer></script>
+   <script src="assets/js/components/traslator.js"></script> 
+   <script type="module" src="assets/js/main.js" defer></script> 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
   </script>
   <script type="text/javascript">
     (function () {
       emailjs.init({
-        publicKey: "eepJ3aozWvvDMEzPM",
+        publicKey: "QTgARvQRTmft7LxPt",
       });
     })();
   </script>
 
   <script>
-      function traslate(){
-        window.alert('cambiando de idioma')
-       let texto = document.getElementById('inicio')
-       texto.textContent = "cambio"
-          
-      }
+      
   </script>
 
 
@@ -104,7 +99,7 @@
       <div class="home__container grid--container">
         <div class="home__image">
           <span></span>
-          <img src="assets/img/profile.png" alt="profile photo" />
+          <img src="assets/img/ensayo.png" alt="profile photo" />
         </div>
 
         <ul class="home__social">
@@ -126,21 +121,21 @@
 
           <h1 class="home__title">Hey, soy Gary Botina</h1>
 
-          <p class="home__description" id="puto">
+          <p class="home__description">
             Soy desarrollador web, apasionado por la tecnología y la
             programación.
           </p>
         </div>
 
         <div class="home__buttons">
-          <button class="btn btn--primary" type="button">Descarga CV</button>
+          <button class="btn btn--primary" type="button"><a href="assets/documents/Hoja de Vida Gary Anderson Botina Santa.pdf" download="Hoja de vida Gary Botina" target="_blank ">Descarga CV</a></button>
         </div>
       </div>
 
     </section>
 
     <section id="about" class="about section">
-      <h2 class="section__title">Acerca de Mí</h2>
+      <h2 class="section__title section__about">Acerca de Mí</h2>
 
       <div class="about__container grid--container">
         <p class="about__description">
@@ -166,7 +161,7 @@
       </div>
     </section>
     <section id="skills" class="skills section">
-      <h2 class="section__title">Habilidades</h2>
+      <h2 class="section__title section__skills">Habilidades</h2>
 
       <div class="skills__container grid--container">
         <p class="skills__description">
@@ -183,7 +178,7 @@
                 <i class="bx bxl-html5"></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">HTML</h3>
-                  <p>he hecho varios proyectos en este lenguaje de programacion, incluyendo este 
+                  <p class="desciption__html">he hecho varios proyectos en este lenguaje de programacion, incluyendo este 
                     portafolio evidentemente con ayuda de css y javascript</p>
                 </div>
               </div>
@@ -195,7 +190,7 @@
                 <i class="bx bxl-css3"></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">CSS3</h3>
-                  <p>he trabajado en varios diseños usando css3 manejo bien este lenguaje de programacion 
+                  <p class="desciption__css3">he trabajado en varios diseños usando css3 manejo bien este lenguaje de programacion 
                     para diseño web sigo aprendiendo sobre deseño para poder ser mas creativos a la hora 
                     de codificar</p>
                 </div>
@@ -208,7 +203,7 @@
                 <i class="bx bxl-javascript"></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">Javascript</h3>
-                  <p>un lenguaje de programacion muy completo y versatil, tambien hice vasrias cosas 
+                  <p class="desciption__js">un lenguaje de programacion muy completo y versatil, tambien hice vasrias cosas 
                     en este portafolio usabdo este lenguaje y otros proyectos, manejo bien la logica 
                     de la programacion lo bucles , los metodos entre otras cosas</p>
                 </div>
@@ -221,7 +216,7 @@
                 <i class='bx bxl-react'></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">React</h3>
-                  <p>una libreria de javascript de la cual tengo buen manejo y tambien llevo algunos proyetos usando esta libreria</p>
+                  <p class="desciption__react">una libreria de javascript de la cual tengo buen manejo y tambien llevo algunos proyetos usando esta libreria</p>
                 </div>
               </div>
             </label>
@@ -230,19 +225,19 @@
         <div class="skills__tags">
           <h3 class="skills__tags-title">Habilidades Blandas</h3>
           <div class="skills__tags-container">
-            <span class="skills__tag">Responsable</span>
-            <span class="skills__tag">Trabajo en equipo</span>
-            <span class="skills__tag">Creativo</span>
-            <span class="skills__tag">Puntual</span>
-            <span class="skills__tag">Proactivo</span>
-            <span class="skills__tag">Autodidacta</span>
+            <span class="skills__tag tag1">Responsable</span>
+            <span class="skills__tag tag2">Trabajo en equipo</span>
+            <span class="skills__tag tag3">Creativo</span>
+            <span class="skills__tag tag4">Puntual</span>
+            <span class="skills__tag tag5">Proactivo</span>
+            <span class="skills__tag tag6">Autodidacta</span>
           </div>
         </div>
       </div>
     </section>
 
     <section id="projects" class="projects section">
-      <h2 class="section__title">Proyectos</h2>
+      <h2 class="section__title section__projects">Proyectos</h2>
       <!-- PROYECTO 1  -->
       <div class="projects__container grid--container">
         <div class="projects__project">
@@ -347,7 +342,7 @@
     </section>
 
     <section id="contact" class="contact section">
-      <h2 class="section__title">Contacto</h2>
+      <h2 class="section__title section__contact">Contacto</h2>
 
       <div class="contact__container grid--container">
         <div class="contact__info">
@@ -361,7 +356,7 @@
               <i class='bx bxl-whatsapp'></i>
 
               <span class="contact__info-number">
-                <a href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto" target="_blank">Enviar mensaje a
+                <a href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto" target="_blank" class="whatsapp">Enviar mensaje a
                   WhatsApp</a>
               </span>
             </div>
@@ -394,22 +389,22 @@
           <h3 class="contact__form-title">Enviar mensaje</h3>
           <form id="form" class="contact__form-container">
             <div class="contact__form-group">
-              <label for="name" class="contact__form-label">Nombre</label>
+              <label for="name" class="contact__form-label label__name">Nombre</label>
               <input type="text" id="name" name="name" class="contact__form-input" />
             </div>
 
             <div class="contact__form-group">
-              <label for="email" class="contact__form-label">Correo</label>
+              <label for="email" class="contact__form-label label__email">Correo</label>
               <input type="email" id="email" name="email" class="contact__form-input" />
             </div>
 
             <div class="contact__form-group">
-              <label for="subject" class="contact__form-label">Asunto</label>
+              <label for="subject" class="contact__form-label label__subject">Asunto</label>
               <input type="text" id="subject" name="subject" class="contact__form-input" />
             </div>
 
             <div class="contact__form-group">
-              <label for="message" class="contact__form-label">Mensaje</label>
+              <label for="message" class="contact__form-label label__message">Mensaje</label>
               <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
             </div>
             <dialog id="modal">

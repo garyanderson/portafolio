@@ -20,7 +20,7 @@ function sendEmail(e) {
   }
 
   if (params.name && params.email && params.subject && params.message) {
-    emailjs.send('service_tk7ibzn', 'template_z85cct9', params).then(openModal())
+    emailjs.send('service_1wavtun', 'template_fkxh1a1', params).then(openModal())
   }
 
 }

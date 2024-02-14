@@ -304,7 +304,7 @@ img {
         }
 
         .navbar__toggle--language-input {
-          /*visibility: hidden;*/
+          visibility: hidden;
 
           &:checked+label {
 
@@ -320,7 +320,6 @@ img {
     }
   }
 }
-
 @keyframes animation-bar {
   to {
     background-color: var(--color-white);
@@ -473,9 +472,10 @@ img {
     padding: var(--header-height) 0 3rem;
 
     .home__image {
-      width: clamp(min(320px, 100%), 85vw, 445px);
+      width: clamp(min(100px, 100%), 85vw, 445px);
       height: auto;
       margin: 0 auto;
+      text-align: center;
     }
 
     .home__social {

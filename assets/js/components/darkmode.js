@@ -8,7 +8,7 @@ function malditoCheck(){
        root.style.setProperty("--bg-color-section2", " #999999");
        root.style.setProperty("--bg-color-buttons", " #666666");
        root.style.setProperty("--color-white", "black");
-       root.style.setProperty("--color-white-1", " #1A237E");
+       root.style.setProperty("--color-white-1", " #A4A4A4");
        root.style.setProperty("--color-white-2", " #303F9F");
        root.style.setProperty("--color-white-3", " #388E3C");
        root.style.setProperty("--color-black", "white")

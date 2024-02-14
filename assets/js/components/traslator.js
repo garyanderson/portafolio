@@ -1,13 +1,86 @@
-
-
 function traslate(){
-    let languaje = document.getElementById('language-toggle')
-    let texto = document.documentElement;
-    let cambiar
+        let language = document.getElementById('language-toggle')
 
-   if (languaje.checked){
-    cambiar.getElementById('inicio').innerHTML('sart')  
-   }else{
-    console.log("eso es si no")
-   }
+    if(language.checked){
+        window.alert('cambiando de idioma a ingles')
+    let tex = document.querySelector('a[href="#home"]').textContent = "start"
+        tex = document.querySelector('a[href="#about"]').textContent = "abut me"
+        tex = document.querySelector('a[href="#skills"]').textContent = "skill"
+        tex = document.querySelector('a[href="#projects"]').textContent = "briefcase"
+        tex = document.querySelector('a[href="#contact"]').textContent = "contact"
+        tex = document.querySelector('.home__description').textContent = "I am a web developer, passionate about technology and programming."
+        tex = document.querySelector('.btn--primary').textContent = "Download"
+        tex = document.querySelector('.section__about').textContent = "about me"
+        tex = document.querySelector('.about__description').textContent = "I am a responsible, punctual, tolerant, self-taught person, I like to learn new things and do well the work assigned to me."
+        tex = document.querySelector('.section__skills').textContent = "skill"
+        tex = document.querySelector('.skills__description').textContent = "I use programming languages ​​such as HTML5, CSS3, Jacascript, React, and SQL databases. I continue learning about other languages, libraries and frameworks"
+        tex = document.querySelector('.desciption__html').textContent = "I have done several projects in this programming language, including this portfolio evidently with the help of CSS and Javascript"
+        tex = document.querySelector('.desciption__css3').textContent = "I have worked on several designs using CSS3, I know this programming language well. for web design I continue learning about design to be able to be more creative when it comes to code"
+        tex = document.querySelector('.desciption__js').textContent = "a very complete and versatile programming language, I also did several things In this portfolio I use this language and other projects, I handle the logic well of programming the loops, the methods among other things"
+        tex = document.querySelector('.desciption__react').textContent = "a javascript library that I have good use of and I also have some projects using this library"
+        tex = document.querySelector('.skills__tags-title').textContent = "soft skills"
+        tex = document.querySelector('.tag1').textContent = "respinsible"
+        tex = document.querySelector('.tag2').textContent = "teamwork"
+        tex = document.querySelector('.tag3').textContent = "creative"
+        tex = document.querySelector('.tag4').textContent = "punctual"
+        tex = document.querySelector('.tag5').textContent = "proactive"
+        tex = document.querySelector('.tag6').textContent = "autodidact"
+        tex = document.querySelector('.tag6').textContent = "autodidact"
+        tex = document.querySelector('.section__projects').textContent = "projects"
+
+        tex = document.querySelector('.section__contact').textContent = "contact"
+        tex = document.querySelector('.contact__info-title').textContent = "Contact information"
+        tex = document.querySelector('.contact__info-description').textContent = "If you have any request, recommendation or order, you can write to me, I will respond as soon as possible."
+        tex = document.querySelector('.whatsapp').textContent = "Send message to WhatsApp"
+        tex = document.querySelector('.contact__form-title').textContent = "send Message"
+        tex = document.querySelector('.label__name').textContent = "name"
+        tex = document.querySelector('.label__email').textContent = "email"
+        tex = document.querySelector('.label__subject').textContent = "subject"
+        tex = document.querySelector('.label__message').textContent = "message"
+        // tex = document.querySelector('#btn_close-modal').textContent = "close"
+        // tex = document.querySelector('#modal').textContent = "form submitted successfully"
+        tex = document.querySelector('.contact__form-button').textContent = "submit"
+        tex = document.querySelector('.footer__description').textContent = "I am a web developer, passionate about technology and programming."
+        tex = document.querySelector('.footer__title').textContent = "social networks"
+    }else{
+        window.alert('changing language to Spanish')
+        tex = document.querySelector('a[href="#home"]').textContent = "inicio"
+        tex = document.querySelector('a[href="#about"]').textContent = "acerca de mi"
+        tex = document.querySelector('a[href="#skills"]').textContent = "habilidades"
+        tex = document.querySelector('a[href="#projects"]').textContent = "portafolio"
+        tex = document.querySelector('a[href="#contact"]').textContent = "contacto"
+        tex = document.querySelector('.home__description').textContent = " Soy desarrollador web, apasionado por la tecnología y la programación."
+        tex = document.querySelector('.btn--primary').textContent = "Descarga CV"
+        tex = document.querySelector('.section__about').textContent = "Acerca de Mí"
+        tex = document.querySelector('.about__description').textContent = "soy una persona responsable, puntual, tolerante autodidacta, me gusta aprender cosas nuevas y hacr bine la labor que me asignen"
+        tex = document.querySelector('.section__skills').textContent = "habilidades"
+        tex = document.querySelector('.skills__description').textContent = "manejo lenguajes de programacion como HTML5, css3, jacascript, React, y bases de datos sql y sigo aprendiendo sobre otros lenjuajes, librerias y framework"
+        tex = document.querySelector('.desciption__html').textContent = "he hecho varios proyectos en este lenguaje de programacion, incluyendo este portafolio evidentemente con ayuda de css y javascript"
+        tex = document.querySelector('.desciption__css3').textContent = "he trabajado en varios diseños usando css3 manejo bien este lenguaje de programacion para diseño web sigo aprendiendo sobre deseño para poder ser mas creativos a la hora de codificar"
+        tex = document.querySelector('.desciption__js').textContent = "un lenguaje de programacion muy completo y versatil, tambien hice vasrias cosas en este portafolio usabdo este lenguaje y otros proyectos, manejo bien la logica de la programacion lo bucles , los metodos entre otras cosas"
+        tex = document.querySelector('.desciption__react').textContent = "una libreria de javascript de la cual tengo buen manejo y tambien llevo algunos proyetos usando esta libreria"
+        tex = document.querySelector('.skills__tags-title').textContent = "Habilidades blandas"
+        tex = document.querySelector('.tag1').textContent = "responsable"
+        tex = document.querySelector('.tag2').textContent = "trabajo en equipo"
+        tex = document.querySelector('.tag3').textContent = "creativo"
+        tex = document.querySelector('.tag4').textContent = "puntual"
+        tex = document.querySelector('.tag5').textContent = "proactivo"
+        tex = document.querySelector('.tag6').textContent = "autodidacta"
+        tex = document.querySelector('.section__projects').textContent = "proyectos"
+
+        tex = document.querySelector('.section__contact').textContent = "contacto"
+        tex = document.querySelector('.contact__info-title').textContent = "Información de contacto"
+        tex = document.querySelector('.contact__info-description').textContent = "si tienes alguna peticion, recomendacion o encargo me puedes escribir, te estare respondiendo lo mas pronto posiblet"
+        tex = document.querySelector('.whatsapp').textContent = "Enviar mensaje a WhatsApp"
+        tex = document.querySelector('.contact__form-title').textContent = "enviar mensaje"
+        tex = document.querySelector('.label__name').textContent = "nombre"
+        tex = document.querySelector('.label__email').textContent = "email"
+        tex = document.querySelector('.label__subject').textContent = "asunto"
+        tex = document.querySelector('.label__message').textContent = "mensaje"
+        // tex = document.querySelector('#btn_close-modal').textContent = "cerrar"
+        // tex = document.querySelector('#modal').textContent = "formulario enviado con exito"
+        tex = document.querySelector('.contact__form-button').textContent = "enviar"
+        tex = document.querySelector('.footer__description').textContent = "Soy desarrollador web, apasionado por la tecnología y la programación."
+         tex = document.querySelector('.footer__title').textContent = "Redes sociales"
+    }
 }

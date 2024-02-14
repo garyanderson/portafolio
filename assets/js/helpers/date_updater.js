@@ -6,5 +6,5 @@ function updateCopyrightYear() {
     copyrightElement.textContent = `© ${currentYear}, Todos los derechos reservados.`
   }
 }
-
+updateCopyrightYear()
 export default updateCopyrightYear

@@ -1,0 +1,50 @@
+.about__container {
+    display: flex;
+    flex-flow: column wrap;
+}
+.text {}
+.about__title {
+    margin-top: 3em;
+    text-align: center;
+}
+.about__text {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+.container__img { 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about__img {
+    width: 30%;
+    min-width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center;
+}
+.about__img img {
+    background-size: cover;
+}
+.img__ing {
+    background-image: url('../../../../../public/images/ingenieria.gif');
+}
+.img__des {
+    background-image: url('../../../../../public/images/desarrollo.gif');
+}
+.img__eq {
+    background-image: url('../../../../../public/images/equipo.gif');
+}
+@media (min-width: 615px) {
+    .container__img { 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}

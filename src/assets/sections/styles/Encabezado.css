@@ -1,0 +1,13 @@
+.Encabezado-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width: 500px) {
+    .Encabezado-container{
+  
+    }   
+  }

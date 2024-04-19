@@ -1,0 +1,78 @@
+{
+    "navbar": {
+        "start": "Start",
+        "about_me": "About_me",
+        "skills": "Skills",
+        "briefcase": "Briefcase",
+        "contact": "contact"
+    },
+    "information": {
+        "info": "Hey, I'm Gary Botina.",
+        "text": "I am a web developer, passionate about technology and programming",
+        "button": "download"
+    },
+    "body": {
+        "about_me": "About me",
+        "about_text": "I am a responsible, punctual, tolerant, self-taught person, I like to learn new things and do well the work assigned to me.",
+        "skills": "skills",
+        "skills_text": "I use programming languages such as HTML5, CSS3, Jacascript, React, and SQL databases and I continue to learn about other languages, libraries and frameworks",
+        "html": "I have done several projects in this programming language, including this portfolio evidently with the help of CSS and Javascript",
+        "cs3": "I have worked on several designs using CSS3. I am good at using this programming language for web design. I am still learning about design to be able to be more creative when coding.",
+        "js": "a very complete and versatile programming language, I also did several things in this portfolio using this language and other projects, I handle the programming logic well, the loops, the methods, among other things.",
+        "react": "a javascript library that I have good use of and I also have some projects using this library",
+        "soft_skills": "Soft Skills",
+        "soft_skills1": "responsible",
+        "soft_skills2": "teamwork",
+        "soft_skills3": "creative",
+        "soft_skills4": "punctual",
+        "soft_skills5": "proactive",
+        "soft_skills6": "autodidact"
+    },
+    "projects": {
+        "project": "Projects",
+        "project1_name": "Fortune cookie",
+        "project1_text": "the application simulates the result of a random cookie and in turn changes the background and screen images at random... try your luck with virtual fortune cookies",
+        "project1_url_demo": "https://proyecto1-galletadelafortuna.netlify.app/",        
+        "project1_url_code": "https://github.com/garyanderson/proyecto1-gen35.git",
+        "project2_name": "Current weather",
+        "project2_text": "in this application you can see the current weather in the place where you are located, you have to give location permission so you can see your weather, you will be able to see the temperature degrees in celsius or farenheit",
+        "project2_url_demo": "https://proyecto2-react-clima.netlify.app/",
+        "project2_url_code": "https://github.com/garyanderson/proyecto2-gen35.git",
+        "project3_name": "Rick and morty",
+        "project3_text": "It is a front-end that was made from an API of the animated series Rick and Morty, enter a number in the indicated range to see the data of the respective population and dimension",
+        "project3_url_demo": "https://proyecto3-rickymorty.netlify.app/",
+        "project3_url_code": "https://github.com/garyanderson/proyecto3-gen35.git",
+        "project4_name": "User CRUD",
+        "project4_text": "it is a front-end of a CRUD 'create, read, update and delete', it works on an API that allows us to use its database to view, save, create or update data in this case of users",
+        "project4_url_demo": "https://proyecto4-gen35.netlify.app/",
+        "project4_url_code": "https://github.com/garyanderson/proyecto4-gen35.git",
+        "project5_name": "pokemon master", 
+        "project5_text": "it is a front-end that collects data from a pokemon api, you must register with a name then you will be able to see all the pokemons, you have the possibility of filtering the pokemons as you prefer", 
+        "project5_url_demo": "https://proyecto5-gen35.netlify.app/",
+        "project5_url_code": "https://github.com/garyanderson/proyecto5-gen35.git",
+        "project6_name": "Booking", 
+        "project6_text": "a front-end development on an academic api about the information of some hotels, in this api you can see the hotels as a user or register and be able to make hotel reservations, as well as delete the reservations or edit them... this project is still in progress development", 
+        "project6_url_demo": "https://hoteles-proyecto6.netlify.app/#/",
+        "project6_url_code": "https://github.com/garyanderson/proyecto6-gen35.git",
+        "see_demo": "see demo", 
+        "see_code": "see code"
+    },
+    "contacts": {
+        "contact": "contact",
+        "contact_title": "Contact information",
+        "contact_text": "If you have any request, recommendation or order, you can write to me, I will respond as soon as possible.",
+        "whatsapp": "Send message to WhatsApp",
+        "form_title": "send Message",
+        "name": "name",
+        "e_mail": "e-mail",
+        "affair": "affair",
+        "message": "message",
+        "form_button": "send"        
+    },
+    "footer": {
+        "footer_title": "Social networks",
+        "footer_text": "I am a web developer, passionate about technology and programming.",
+        "footer_rigth": "All rights reserved."
+    }
+
+}

@@ -1,0 +1,17 @@
+.icon {
+    width: 2em;
+}
+.container_app {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 500px) {
+  .container_app{
+
+  }   
+}

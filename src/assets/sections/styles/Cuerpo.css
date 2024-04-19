@@ -1,0 +1,5 @@
+.Cuerpo__container {
+}
+@media (max-width: 500px) {
+    .Cuerpo__container {}   
+  }

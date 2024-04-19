@@ -1,0 +1,78 @@
+{
+    "navbar": {
+        "start": "Inicio",
+        "about_me": "Acerca de mi",
+        "skills": "habilidades",
+        "briefcase": "Portafolio",
+        "contact": "contactos"
+    },
+    "information": {
+        "info": "Hey, soy Gary Botina",
+        "text": "Soy desarrollador web, apasionado por la tecnologia y la programacion",
+        "button": "descargar"
+    }, 
+    "body": {
+        "about_me": "Acerca de mi",
+        "about_text": "Soy una persona responsable, puntual, tolerante y autodidacta, me gusta aprender cosas nuevas y hacr bine la labor que me asignen.",
+        "skills": "habilidades",
+        "skills_text": "manejo lenguajes de programación como HTML5, css3, jacascript, React, y bases de datos sql y sigo aprendiendo sobre otros lenguajes, librerías y framework",
+        "html": "hizo varios proyectos en este lenguaje de programación, incluyendo este portafolio evidentemente con ayuda de css y javascript.",
+        "cs3": "trabajó en varios diseños usando css3 manejo bien este lenguaje de programación para diseño web sigo aprendiendo sobre diseño para poder ser más creativos a la hora de codificar",
+        "js": "un lenguaje de programacion muy completo y versatil, tambien hice vasrias cosas en este portafolio usabdo este lenguaje y otros proyectos, manejo bien la logica de la programacion lo bucles , los metodos entre otras cosas",
+        "react": "una libreria de javascript de la cual tengo buen manejo y tambien llevo algunos proyectos usando esta libreria",
+        "soft_skills": "Habilidades blandas",
+        "soft_skills1": "responsable",
+        "soft_skills2": "trabajo en equipo",
+        "soft_skills3": "creativo",
+        "soft_skills4": "puntual",
+        "soft_skills5": "proactivo",
+        "soft_skills6": "autodidacta"
+    },
+    "projects": {
+        "project": "Proyectos",
+        "project1_name": "Galleta de la fortuna",
+        "project1_text": "la aplicacion simula el resultado de una galleta al azar y a su ves cambia el fondo e imagenes de la pantalla al azar... pruba tu suerte con las galletas de la fortuna virtual",
+        "project1_url_demo": "https://proyecto1-galletadelafortuna.netlify.app/",        
+        "project1_url_code": "https://github.com/garyanderson/proyecto1-gen35.git",
+        "project2_name": "Clima actual",
+        "project2_text": "en esta applicacion puedes ver el clima actual en el lugar donde estas ubicado, tienes que dar pemiso de ubicacion para que puedas ver tu clima, podras ver los grados de temperatura en celsius o farenheit",
+        "project2_url_demo": "https://proyecto2-react-clima.netlify.app/",
+        "project2_url_code": "https://github.com/garyanderson/proyecto2-gen35.git",
+        "project3_name": "Rick y morty",
+        "project3_text": "es un front-end que se hizo apartir de una API de la serie animada rick y mortyingresa un numero en el rango indicado para ver los datos de la polbacion y dimension respectiva",
+        "project3_url_demo": "https://proyecto3-rickymorty.netlify.app/",
+        "project3_url_code": "https://github.com/garyanderson/proyecto3-gen35.git",
+        "project4_name": "CRUD de usuarios",
+        "project4_text": "es una front-end de un CRUD 'create, read, update y delete', trabaja sobre una API que nos permite usar su base de datos para ver, guardar, crear o actualizar datos en este caso de usuarios",
+        "project4_url_demo": "https://proyecto4-gen35.netlify.app/",
+        "project4_url_code": "https://github.com/garyanderson/proyecto4-gen35.git",
+        "project5_name": "maestro pokemon", 
+        "project5_text": "es un front-end que recolecta datos de una api de pokemon, debes registrarte con un nombre luego podras ver todos los pokemones, tienes la posibilidad de filtrar los pokemos como lo prefieras", 
+        "project5_url_demo": "https://proyecto5-gen35.netlify.app/",
+        "project5_url_code": "https://github.com/garyanderson/proyecto5-gen35.git",
+        "project6_name": "Reservas", 
+        "project6_text": "un desarrollo front-end sobre una api de academlo sobre la informacion de algunos hoteles, en esta api puedes ver los hoteles como usario o registrarte y poder hacer reservas de hotel, asi como eliminar las reservas o editarles...este proyecto sigue en desarrollo", 
+        "project6_url_demo": "https://hoteles-proyecto6.netlify.app/#/",
+        "project6_url_code": "https://github.com/garyanderson/proyecto6-gen35.git",
+        "see_demo": "ver demostracion", 
+        "see_code": "ver codigo"
+    },
+    "contacts": {
+        "contact": "contacto",
+        "contact_title": "informacion de contacto",
+        "contact_text": "si tienes alguna petición, recomendación o encargo, puedes escribirme, te estaré respondiendo lo más pronto posible.",
+        "whatsapp": "Enviar mensaje a WhatsApp.",
+        "form_title": "enviar mensage",
+        "name": "nombre",
+        "e_mail": "e-mail",
+        "affair": "asunto",
+        "message": "mensage",
+        "form_button": "enviar"        
+    },
+    "footer": {
+        "footer_title": "redes sociales",
+        "footer_text": "Soy desarrollador web, apasionado por la tecnología y la programación.",
+        "footer_rigth": "Todos los derechos reservados."
+    }
+     
+}

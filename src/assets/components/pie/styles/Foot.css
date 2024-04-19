@@ -1,0 +1,16 @@
+.foot__container {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.foot__title {
+    margin-bottom: 1em;
+}
+.foot__text {
+    margin-bottom: 1em;
+}
+.foot__rigth {
+}

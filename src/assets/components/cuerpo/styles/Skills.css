@@ -1,0 +1,89 @@
+.skills__container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skills__title {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+}
+.skills__text-title{
+    display: flex;
+    justify-self: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.skills__text {
+   text-align: center;
+    color: white;
+    margin: 0;
+    visibility: hidden;
+}
+.card {
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 15px;
+    width: 100%;
+    height: 4em;
+    margin-bottom: 1em;
+        &:hover {
+            cursor: pointer;
+        }
+}
+.skills__icon {
+    align-self: center;
+    right: 50%;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: white;
+}
+.skills__icon img {
+    width: 3em;
+}
+.open-card {
+    height: 15em;    
+}
+.open-card .skills__text,
+.open-card .skills__title {
+    visibility: visible;
+}
+.sft-sklls__title {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.sft-skills__container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5em;
+}
+.sft-skills__item {
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+}
+
+@media (min-width: 615px) {
+.card {
+    width: 5em;
+    height: 50vh;
+    margin-bottom: 1em;
+}
+.containe__cards {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5em;
+}
+.open-card {
+    width: 15em;
+    &.skills__text, &.skills__title{
+        visibility: visible;
+     }
+}
+}

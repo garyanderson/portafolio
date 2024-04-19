@@ -1,0 +1,74 @@
+.navbar__container{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+.icon-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.true{
+    display: block;
+}
+.false{
+    display: none;
+}
+.navbar__name {
+    position: absolute;
+    left: 4em;
+    top: 0.5em;
+}
+.icon-logo {
+    position: absolute;
+    margin-left: 0.5em;
+}
+.navbar__select {
+    position: absolute;
+    right: 45%;
+    top: 1em;
+}
+.icon__closed {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.navbar__list {
+    width: 100%;
+    text-align: center;
+}
+.navbar__item {
+    padding: 0.3em;
+}
+.navbar__select {}
+.navbar__option{}
+
+@media (min-width: 615px) {
+    .navbar__container{
+        top: 0;
+
+    }
+    .navbar__list {
+        display: flex;
+        width: 70%;
+        justify-content: space-between; 
+        margin-left: 5em;  
+    }  
+    .icon-menu {
+        display: none;
+    } 
+    .false{
+        display: flex;
+    }
+    .icon__closed {
+        display: none;
+    }
+    .navbar__select {
+        right: 0;
+    }
+       
+}

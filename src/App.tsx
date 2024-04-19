@@ -20,7 +20,7 @@ function App() {
 
   }, [selectedLanguage, i18n]);
 
-
+console.log(t)
 
   return (
   <div className='container_app'>

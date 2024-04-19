@@ -1,7 +1,4 @@
 import { useTranslation } from "react-i18next";
-import ingenieria from '../../../../public/images/ingenieria.gif'
-import desarrollo from '../../../../public/images/desarrollo.gif'
-import equipo from '../../../../public/images/equipo.gif'
 import './styles/AboutMe.css'
 
 const AboutMe = () => {

@@ -1,12 +1,10 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './styles/Projects.css'
 
 const Projects = () => {
 
   const [selected, setSelected] = useState(0)
-const url = 'https://hoteles-proyecto6.netlify.app/#/'
     const [t] = useTranslation('global');
 
     const img:string[] = ['../../../../public/images/img_academlo1.jpg',

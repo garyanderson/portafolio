@@ -7,12 +7,12 @@ const Projects = () => {
   const [selected, setSelected] = useState(0)
     const [t] = useTranslation('global');
 
-    const img:string[] = ['../../../../public/images/img_academlo1.jpg',
-                           '../../../../public/images/img_academlo2.jpg',
-                          '../../../../public/images/img_academlo3.jpg', 
-                          '../../../../public/images/img_academlo4.jpg',
-                          '../../../../public/images/img_academlo5.jpg', 
-                          '../../../../public/images/img_academlo6.jpg']
+    const img:string[] = ['/images/img_academlo1.jpg',
+                           '/images/img_academlo2.jpg',
+                          '/images/img_academlo3.jpg', 
+                          '/images/img_academlo4.jpg',
+                          '/images/img_academlo5.jpg', 
+                          '/images/img_academlo6.jpg']
 
    const objStyle = {
       width: `${img.length * 100}%`,

@@ -10,12 +10,12 @@
     justify-content: center;
     align-items: flex-start;
 }
-.contact__name {}
-.contact__title {}
+/*.contact__name {}
+.contact__title {}*/
 .contact__text {
     margin-bottom: 1em;
 }
-.contact__whatsapp {}
+/*.contact__whatsapp {}*/
 .contact__form {
     width: 60%;
     display: flex;
@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: self-start;
 }
-.form__title {}
+/*.form__title {}*/
 .form__label {
     font-size: 1.2em;
 }
@@ -32,4 +32,4 @@
     width: 50%;
     margin-bottom: 1em;
 }
-.form__btn {}
+/*.form__btn {}*/

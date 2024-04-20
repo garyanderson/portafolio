@@ -6,9 +6,13 @@
     margin-top: 0px;
     justify-content: center;
     align-content: center;
+    padding-top: 1em;
+    position: relative;
     
 }
 .information__info {
+    position: absolute;
+    top: 1.5em;
     text-transform: uppercase;
     border-right: 4px solid;
     white-space: nowrap;
@@ -29,22 +33,37 @@
       border-color: transparent;
     }
   }
+  .container__info>p {
+    margin-top: 8em;
+  }
 .information.text {
-    
 }
 .information__img {
  width: 10em;
  align-self: center;
  justify-self: center;
+ grid-row: 3;
+ margin-top: 3em;
 }    
 .information__button {
   display: flex;
   justify-content: center;
-   
-    
+  grid-row: 4;
 }
 .information__btn {
+    background-color: rgb(200, 200, 200);
+    padding: 0.5em;
     height: 2em;
+    border-radius: 10%;
+    box-shadow: 0 0 4px 0.1px;
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 7px 0.1px;
+      }
+      &:active {
+        transform: scale(1);
+        box-shadow: 0 0 5px;
+      }
 }
 @media (min-width: 615px) {
 .container__info {

@@ -36,11 +36,11 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects__container">
+    <div id="portafolio" className="projects__container">
         <h2>{t("projects.project")}</h2>
         <div className="content__slider">
           <div className="sliders__container">
-            <button onClick={handlePrev} className="slider__btn prev">⏪</button>
+            <button onClick={handlePrev} className="slider__btn prev">&lt;</button>
             <div style={objStyle} className="slider__mobable">
             
               {
@@ -50,7 +50,7 @@ const Projects = () => {
               }
              
             </div> 
-            <button onClick={handleNext} className="slider__btn next">⏩</button>        
+            <button onClick={handleNext} className="slider__btn next">&gt;</button>        
           </div>
           </div>
           

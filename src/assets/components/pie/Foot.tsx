@@ -6,7 +6,7 @@ const Foot = () => {
     const [t] = useTranslation('global');
 
     return (
-      <div className="foot__container">
+      <div id="piesote" className="foot__container">
         <h3 className="foot__title">{t("footer.footer_title")}</h3>
         <p className="foot__text">{t("footer.footer_text")}</p>
         <span className="foot__rigth">{t("footer.footer_rigth")}</span>

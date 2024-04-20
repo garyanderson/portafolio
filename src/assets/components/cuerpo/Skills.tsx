@@ -20,7 +20,7 @@ const Skills: React.FC = () => {
     
 
   return (
-    <div className="skills__container">    
+    <div id="habilidades" className="skills__container">    
         <h2 className="skills__title">{t("body.skills")}</h2>
         <p className="skills__text-title">{t("body.skills_text")}</p>
         <div className="containe__cards">

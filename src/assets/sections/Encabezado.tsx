@@ -5,14 +5,16 @@ import './styles/Encabezado.css'
 interface EncabezadoProps {
   selectedLanguage: string;
   setSelectedLanguage: React.Dispatch<React.SetStateAction<string>>;
+  setDesplazar: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const Encabezado: React.FC<EncabezadoProps> = ({ selectedLanguage, setSelectedLanguage })  => {
+const Encabezado: React.FC<EncabezadoProps> = ({ selectedLanguage, setSelectedLanguage, setDesplazar })  => {
   return (
     <div className="Encabezado-container">
       <NavBar 
       selectedLanguage={selectedLanguage}
       setSelectedLanguage={setSelectedLanguage}
+      setDesplazar={setDesplazar}
       />
       <Information/>
     </div>

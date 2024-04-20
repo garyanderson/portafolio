@@ -1,16 +1,22 @@
 .navbar__container{
-    background-color: white;
+    background-color: rgb(225, 225, 225, 0.9);
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     position: fixed;
     bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    z-index: 2;
 }
 .icon-menu {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+.icon {
+   
 }
 .true{
     display: block;
@@ -30,7 +36,10 @@
 .navbar__select {
     position: absolute;
     right: 45%;
-    top: 1em;
+    top: 0.5em;
+    margin-right: 1em;
+    background-color: rgb(225, 225, 225, 0.9);
+    height: 2em;
 }
 .icon__closed {
     position: absolute;
@@ -43,9 +52,15 @@
 }
 .navbar__item {
     padding: 0.3em;
+    font-size: 1.1em;
+    cursor: pointer;
+     &:hover {
+        transform: scale(1.1);
+     }
 }
-.navbar__select {}
-.navbar__option{}
+
+.navbar__option{
+}
 
 @media (min-width: 615px) {
     .navbar__container{

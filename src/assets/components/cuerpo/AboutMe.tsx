@@ -6,7 +6,7 @@ const AboutMe = () => {
     const [t] = useTranslation('global');
 
   return (
-    <div className="about__container">
+    <div id="acerca" className="about__container">
         <section>
         <h2 className="title about__title">{t("body.about_me")}</h2>
         <p className="text about__text">{t("body.about_text")}</p>

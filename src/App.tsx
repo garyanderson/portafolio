@@ -20,13 +20,22 @@ function App() {
 
   }, [selectedLanguage, i18n]);
 
-console.log(t)
+const [desplazar, setDesplazar] = useState<string>('cabeza')
 
+
+const element = document.getElementById(desplazar);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+
+console.log(desplazar)
   return (
   <div className='container_app'>
-    <Encabezado 
+    <div id='cabeza'></div>
+    <Encabezado  
       selectedLanguage={selectedLanguage}
       setSelectedLanguage={setSelectedLanguage}
+      setDesplazar={setDesplazar}
     />
     <Cuerpo />
     <Pie />

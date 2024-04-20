@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import logo from '../../../../public/images/logo.png'
 import menu from '../../../../public/images/menu.png'
-import es from '../../../../public/images/es.png'
 import './styles/NavBar.css'
 
 

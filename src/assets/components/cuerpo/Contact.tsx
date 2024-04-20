@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import emailjs from 'emailjs-com';
+/*import emailjs from 'emailjs-com';*/
 import { useForm } from 'react-hook-form';
 import './styles/Contact.css'
 

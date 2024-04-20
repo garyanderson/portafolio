@@ -28,7 +28,7 @@ const element = document.getElementById(desplazar);
       element.scrollIntoView({ behavior: 'smooth' });
     }
 
-console.log(desplazar)
+console.log(t)
   return (
   <div className='container_app'>
     <div id='cabeza'></div>

@@ -17,8 +17,9 @@ function App() {
     selectedLanguage === '1' && i18n.changeLanguage('es');
     selectedLanguage === '2' && i18n.changeLanguage('en');
     selectedLanguage === '3' && i18n.changeLanguage('pt');
+    setDesplazar('cabeza')
 
-  }, [selectedLanguage, i18n]);
+  }, [selectedLanguage, i18n, ]);
 
 const [desplazar, setDesplazar] = useState<string>('cabeza')
 
@@ -27,7 +28,7 @@ const element = document.getElementById(desplazar);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-
+console.log(desplazar)
 console.log(t)
   return (
   <div className='container_app'>

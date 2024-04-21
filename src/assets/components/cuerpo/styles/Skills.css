@@ -9,8 +9,7 @@
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
-    color: white;
-    visibility: hidden;
+    color: black;
 }
 .skills__text-title{
     display: flex;
@@ -71,7 +70,7 @@
 
 @media (min-width: 615px) {
 .card {
-    width: 5em;
+    width: 6em;
     height: 50vh;
     margin-bottom: 1em;
 }

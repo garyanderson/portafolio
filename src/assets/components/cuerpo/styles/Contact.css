@@ -3,6 +3,7 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 4em;
 }
 .contact__info {
     margin-top: 3em;
@@ -28,16 +29,22 @@
 /*.form__title {}*/
 .form__label {
     font-size: 1.2em;
-    width: 60%;
+    width: 90%;
 }
 .form__input {
     height: 2em;
-    width: 60%;
+    width: 90%;
     margin-bottom: 1em;
 }
 .form__textarea {
-    width: 60%;
+    width: 90%;
+    height: 10em;
     margin-bottom: 2em;
+    resize: none;
+}
+.form__btn {
+    align-self: center;
+
 }
 @media (min-width: 615px) {
     .contact__container {
@@ -50,6 +57,7 @@
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
+        gap: 1;
         align-items: flex-start;
     }
     /*.contact__name {}
@@ -59,19 +67,23 @@
     }
     /*.contact__whatsapp {}*/
     .contact__form {
-        width: 60%;
+        width: 50%;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
-        align-items: self-start;
+        align-items: flex-start;
+        
     }
-    /*.form__title {}*/
     .form__label {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
+    
     .form__input {
         height: 2em;
-        width: 50%;
+        width: 90%;
         margin-bottom: 1em;
+    }
+    .form__textarea{
+        /*width: 90%;*/
     }
 }

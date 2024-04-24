@@ -1,11 +1,13 @@
 .foot__container {
-   margin-bottom: 5em;
+   padding-bottom: 5em;
     width: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
+    padding-top: 3em;
+    background: rgb(184,170,176);
+background: radial-gradient(circle, rgba(184,170,176,0.6110819327731092) 0%, rgba(214,179,70,1) 44%, rgba(159,195,207,1) 82%);
 }
 .foot__title {
     margin-bottom: 1em;

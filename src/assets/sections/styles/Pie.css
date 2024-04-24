@@ -1,4 +1,5 @@
-.pie__container {}
+.pie__container {
+}
 @media (max-width: 500px) {
     .pie__container {}   
   }

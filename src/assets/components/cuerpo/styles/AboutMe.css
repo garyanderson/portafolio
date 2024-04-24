@@ -1,6 +1,8 @@
 .about__container {
     display: flex;
     flex-flow: column wrap;
+    background: rgb(184,170,176);
+background: radial-gradient(circle, rgba(184,170,176,0.6110819327731092) 0%, rgba(214,179,70,1) 44%, rgba(159,195,207,1) 82%);
 }
 .text {}
 .about__title {

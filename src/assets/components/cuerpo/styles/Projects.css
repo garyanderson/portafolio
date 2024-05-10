@@ -1,8 +1,6 @@
 .projects__container {
     position: relative;
     padding-top: 3em;
-    background: rgb(184,170,176);
-background: radial-gradient(circle, rgba(184,170,176,0.6110819327731092) 0%, rgba(214,179,70,1) 44%, rgba(159,195,207,1) 82%);
 }
 .projects__container > h2 {
    width: 100%;

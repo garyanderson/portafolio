@@ -1,0 +1,6 @@
+:root {
+    --color_base: linear-gradient(90deg, rgba(160,181,235,1) 0%, #6e9ce0 50%, rgba(160,181,235,1) 82%);
+    --color_nabvar: rgba(167, 189, 218, 0.8);
+    /* --color_base: linear-gradient(90deg, rgba(160,181,235,1) 0%, #6e9ce0 50%, rgba(160,181,235,1) 82%);
+    --color_nabvar: rgba(167, 189, 218, 0.8);*/
+}

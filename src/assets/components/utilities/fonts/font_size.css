@@ -1,0 +1,27 @@
+:root {
+    --font_small-menu: 0.8em;
+    --base_small_darkmode_w: 2.3em;
+    --base_small_darkmode_h: 1.2em;
+    --selector_small_darkmode: 1.1em;
+    --logo_small_img: 2.1em;
+    --logo_small_name: 1.2em;
+    --icon_small_language: 1.6em;
+    /*tamaño letra mediana > 380px*/
+    --font_medium-menu: 1.05em;
+    --base_medium_darkmode_w: 2.5em;
+    --base_medium_darkmode_h: 1.4em;
+    --selector_medium_darkmode: 1.3em;
+    --logo_medium_img: 2.5em;
+    --logo_medium_name: 1.5em;
+    --icon_medium_language: 1.9em;
+    /*tamaño letra grande > 480px*/
+    --font_large-menu: 1.3em;
+    --base_large_darkmode_w: 2.3em;
+    --base_large_darkmode_h: 1.2em;
+    --selector_large_darkmode: 1.1em;
+    --logo_large_img: 2.1em;
+    --logo_large_name: 1.2em;
+    --icon_large_language: 1.6em;
+    /*tamaño letra grande > 768px*/
+    --font_xlarge-menu: 1.5em;
+}

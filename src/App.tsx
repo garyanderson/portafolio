@@ -31,7 +31,11 @@ const element = document.getElementById(desplazar);
       element.scrollIntoView({ behavior: 'smooth' });
     }
 
+<<<<<<< HEAD
     console.log(t);
+=======
+    
+>>>>>>> a2287fdba891351df6e5530baf3bbc4be51c7a94
 
   return (
   <div className={`container_app}` }>

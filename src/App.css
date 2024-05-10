@@ -1,18 +1,57 @@
-.icon {
-    width: 2em;
+/*fromato*/
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+* {
+    box-sizing: border-box;
 }
+html {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+ h1, h2, h3, p, ul, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+input, button, select {
+    font-family: inherit;
+}
+input {
+    outline: none;
+}
+
+  button {
+    font-family: inherit;
+    outline: none;
+    cursor: pointer;
+  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*generales*/
+
 .container_app {
   width: 100%;
+  background-color: var(--color_nabvar);
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  position: relative;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  overflow: hidden;
-}
-@media (max-width: 500px) {
-  .container_app{
-
-  }   
+  /*justify-content: center;*/
+  /*align-items: center;*/
 }

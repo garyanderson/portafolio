@@ -1,6 +1,7 @@
 import NavBar from "../components/encabezado/NavBar"
 import Information from "../components/encabezado/Information";
 import './styles/Encabezado.css'
+import React from "react";
 
 interface EncabezadoProps {
   selectedLanguage: string;

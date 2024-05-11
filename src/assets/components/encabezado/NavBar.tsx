@@ -33,22 +33,22 @@ const NavBar: React.FC<NavBarProps> = ({ selectedLanguage, setSelectedLanguage, 
                     //link.href = '../utilities/darkmode/dark_color.css';
                 //}*/
                  //Importa el archivo CSS de modo oscuro
-                //await import('../utilities/darkmode/dark_color.css');
+                await import('../utilities/darkmode/dark_color.css');
                 //const link  = document.querySelector('link[href="../utilities/darkmode/dark_color.css"]') as HTMLLinkElement;
                 //if(link){
                     //link.href = '../utilities/darkmode/ligth_color.css';
                 //}
-                const link = document.createElement('link');
+                /*const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = '/dark_color.css';
     link.id = 'darkModeCss'; // Agregar un id al link
-    document.head.appendChild(link);
+    document.head.appendChild(link);*/
                 
             } else {
-                console.log("perra sigue vacia")
+                //console.log("perra sigue vacia")
                 //console.log("link esta vacio")
                 // Importa el archivo CSS de modo claro
-                //await import('../utilities/darkmode/ligth_color.css');
+                await import('../utilities/darkmode/ligth_color.css');
             }
             
         };

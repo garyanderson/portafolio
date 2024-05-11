@@ -40,7 +40,7 @@ const NavBar: React.FC<NavBarProps> = ({ selectedLanguage, setSelectedLanguage, 
                 //}
                 const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = './src/assets/components/utilities/darkmode/dark_color.css';
+    link.href = '/dark_color.css';
     link.id = 'darkModeCss'; // Agregar un id al link
     document.head.appendChild(link);
                 

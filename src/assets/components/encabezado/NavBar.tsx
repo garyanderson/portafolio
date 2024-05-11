@@ -1,12 +1,11 @@
 import { useTranslation } from 'react-i18next'
 import { useState, useEffect } from 'react'
-import logo from '/images/logo.png'
+import logo from '/images/en.png'
 import en from '/images/en.png'
 import es from '/images/es.png'
 import pt from '/images/pt.png'
 import './styles/NavBar.css'
 import '../utilities/scripts/animation_menu.ts'
-import { dark } from '../utilities/scripts/dark.ts'
 
 
 interface NavBarProps {
@@ -21,12 +20,41 @@ const NavBar: React.FC<NavBarProps> = ({ selectedLanguage, setSelectedLanguage, 
     const [t] = useTranslation('global');
 
     const [displaceMenu, setDisplaceMenu] = useState(false)
-    const [darkmode, setDarkMode] = useState<boolean>(true)
+    const [darkMode, setDarkMode] = useState<boolean>(true)
+    
     
  
-   useEffect(() => {
-        dark(darkmode)
-   }, [darkmode])
+    useEffect(() => {
+        const setMode = async () => {
+            if (!darkMode) {
+                
+                //const link  = document.querySelector('link[href="../utilities/darkmode/ligth_color.css"]') as HTMLLinkElement;
+                //if(link){
+                    //link.href = '../utilities/darkmode/dark_color.css';
+                //}*/
+                 //Importa el archivo CSS de modo oscuro
+                //await import('../utilities/darkmode/dark_color.css');
+                //const link  = document.querySelector('link[href="../utilities/darkmode/dark_color.css"]') as HTMLLinkElement;
+                //if(link){
+                    //link.href = '../utilities/darkmode/ligth_color.css';
+                //}
+                const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = './src/assets/components/utilities/darkmode/dark_color.css';
+    link.id = 'darkModeCss'; // Agregar un id al link
+    document.head.appendChild(link);
+                
+            } else {
+                console.log("perra sigue vacia")
+                //console.log("link esta vacio")
+                // Importa el archivo CSS de modo claro
+                //await import('../utilities/darkmode/ligth_color.css');
+            }
+            
+        };
+console.log(darkMode)
+        setMode();
+    }, [darkMode]);
    
     
   return (
@@ -51,9 +79,9 @@ const NavBar: React.FC<NavBarProps> = ({ selectedLanguage, setSelectedLanguage, 
             </ul>
         </div>
         <div className="navbar2" id='nav2'>
-            <div onClick={() => setDarkMode(!darkmode)} className={`darkmode ${darkmode ? 'sun' : 'moon'}`}>
-                    <div className={`selector ${darkmode ? 'moon' : 'sun'}`}>
-                        <img className='icon-darkmode' src={`/images/icon-${darkmode ? 'moon' : 'sun'}.png`} alt="" />
+            <div onClick={() => setDarkMode(!darkMode)} className={`darkmode ${darkMode ? 'sun' : 'moon'}`}>
+                    <div className={`selector ${darkMode ? 'moon' : 'sun'}`}>
+                        <img className='icon-darkmode' src={`/images/icon-${darkMode ? 'moon' : 'sun'}.png`} alt="" />
                     </div>
                 </div>
             <div className='logo_name'>

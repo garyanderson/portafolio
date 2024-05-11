@@ -1,4 +1,4 @@
-export function dark(darkmode: boolean) {
+/*export function dark(darkmode: boolean) {
     const colorsDark = document.getElementById('darkcolor') as HTMLLinkElement;
     const colorsLight = document.getElementById('ligthcolor') as HTMLLinkElement;
 
@@ -12,4 +12,4 @@ export function dark(darkmode: boolean) {
     console.log(colorsLight)
     console.log(colorsDark)
     console.log(darkmode)
-}
+}*/
